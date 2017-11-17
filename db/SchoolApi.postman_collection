@@ -1,0 +1,442 @@
+{
+	"id": "e9eb6d32-3590-6e6a-66fc-1c7a48964e2c",
+	"name": "SchoolApi",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "Courses",
+			"description": "",
+			"collectionId": "e9eb6d32-3590-6e6a-66fc-1c7a48964e2c",
+			"order": [
+				"465ad65c-f81d-19b7-ac03-e62bd68bf3ce",
+				"b2329c71-84fa-8d31-0ff7-6278e425dd2d",
+				"7b4b5fa3-de2d-8c8e-b23f-f8bc58e84355",
+				"fccc0250-6801-c913-8210-0ba3835c5b48"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "26b9af1e-7791-89ad-ac1d-62fcfac47ccb"
+		},
+		{
+			"name": "Students",
+			"description": "",
+			"collectionId": "e9eb6d32-3590-6e6a-66fc-1c7a48964e2c",
+			"order": [
+				"cb867e70-98b5-13b2-e398-5555b2b3b228",
+				"db2aab87-52d0-c559-a8a9-8087924e8d39",
+				"e9feea37-bb6f-b2fd-99a2-5b62de601ddc",
+				"7a23d02d-44a6-0381-df2b-907b5b3f1614"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "bfa190a9-3e65-87de-72a2-7ce66c87cfec"
+		},
+		{
+			"name": "Teachers",
+			"description": "",
+			"collectionId": "e9eb6d32-3590-6e6a-66fc-1c7a48964e2c",
+			"order": [
+				"2bf664a0-700b-96b2-e012-c5b322c4e6d4",
+				"8801d623-df32-1f7f-57db-f4524b9f351a",
+				"d0a1e92b-0d8e-7416-1373-cdac2a7bd9bb",
+				"71631e62-e024-c6b7-2ea9-372920cc568c"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "389db4b4-7e3e-16a6-852d-b6116fcb4b07"
+		}
+	],
+	"folders_order": [
+		"bfa190a9-3e65-87de-72a2-7ce66c87cfec",
+		"389db4b4-7e3e-16a6-852d-b6116fcb4b07",
+		"26b9af1e-7791-89ad-ac1d-62fcfac47ccb"
+	],
+	"timestamp": 1510890724174,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "2bf664a0-700b-96b2-e012-c5b322c4e6d4",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "e9eb6d32-3590-6e6a-66fc-1c7a48964e2c",
+			"data": null,
+			"dataMode": "params",
+			"name": "Teachers Get",
+			"description": "Obtiene la lista de profesores",
+			"descriptionFormat": "html",
+			"time": 1510892017728,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "cb867e70-98b5-13b2-e398-5555b2b3b228",
+			"folder": "389db4b4-7e3e-16a6-852d-b6116fcb4b07"
+		},
+		{
+			"id": "465ad65c-f81d-19b7-ac03-e62bd68bf3ce",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "e9eb6d32-3590-6e6a-66fc-1c7a48964e2c",
+			"data": null,
+			"dataMode": "params",
+			"name": "Courses Get",
+			"description": "Obtiene la lista de cursos",
+			"descriptionFormat": "html",
+			"time": 1510892017728,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "2bf664a0-700b-96b2-e012-c5b322c4e6d4",
+			"folder": "26b9af1e-7791-89ad-ac1d-62fcfac47ccb"
+		},
+		{
+			"id": "71631e62-e024-c6b7-2ea9-372920cc568c",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/SchoolApi/teacher/1",
+			"folder": "389db4b4-7e3e-16a6-852d-b6116fcb4b07",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510892577690,
+			"name": "Teachers Delete",
+			"description": "Elimina un profesor",
+			"collectionId": "e9eb6d32-3590-6e6a-66fc-1c7a48964e2c",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "7a23d02d-44a6-0381-df2b-907b5b3f1614",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/SchoolApi/student/1",
+			"folder": "bfa190a9-3e65-87de-72a2-7ce66c87cfec",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510892515097,
+			"name": "Student Delete",
+			"description": "Elimina un estudiante",
+			"collectionId": "e9eb6d32-3590-6e6a-66fc-1c7a48964e2c",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "7b4b5fa3-de2d-8c8e-b23f-f8bc58e84355",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/SchoolApi/course?id=1",
+			"folder": "26b9af1e-7791-89ad-ac1d-62fcfac47ccb",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510892906890,
+			"name": "Courses Update",
+			"description": "Actualiza un curso existente",
+			"collectionId": "e9eb6d32-3590-6e6a-66fc-1c7a48964e2c",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\": 1,\n\t\"name\": \"Curso 1\",\n\t\"desc\": \"Descripcion del curso 1 de ingenieria\"\n}"
+		},
+		{
+			"id": "8801d623-df32-1f7f-57db-f4524b9f351a",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/SchoolApi/teacher",
+			"folder": "389db4b4-7e3e-16a6-852d-b6116fcb4b07",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510892447196,
+			"name": "Teachers Create",
+			"description": "Crea un nuevo profesor",
+			"collectionId": "e9eb6d32-3590-6e6a-66fc-1c7a48964e2c",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\": \"Pompilio\",\n\t\"lastname\": \"Perez\",\n\t\"gender\": \"m\"\n}"
+		},
+		{
+			"id": "b2329c71-84fa-8d31-0ff7-6278e425dd2d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/SchoolApi/course",
+			"folder": "26b9af1e-7791-89ad-ac1d-62fcfac47ccb",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510892666298,
+			"name": "Courses Create",
+			"description": "Crea un nuevo curso",
+			"collectionId": "e9eb6d32-3590-6e6a-66fc-1c7a48964e2c",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\": \"Pompilio\",\n\t\"lastname\": \"Perez\",\n\t\"gender\": \"m\"\n}"
+		},
+		{
+			"id": "cb867e70-98b5-13b2-e398-5555b2b3b228",
+			"headers": "",
+			"headerData": [],
+			"url": "",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "e9eb6d32-3590-6e6a-66fc-1c7a48964e2c",
+			"data": null,
+			"dataMode": "params",
+			"name": "Students Get",
+			"description": "Obtiene la lista de estudiantes",
+			"descriptionFormat": "html",
+			"time": 1510892017728,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "cb867e70-98b5-13b2-e398-5555b2b3b228",
+			"folder": "bfa190a9-3e65-87de-72a2-7ce66c87cfec"
+		},
+		{
+			"id": "d0a1e92b-0d8e-7416-1373-cdac2a7bd9bb",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/SchoolApi/teacher?id=1",
+			"folder": "389db4b4-7e3e-16a6-852d-b6116fcb4b07",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510892776074,
+			"name": "Teachers Update",
+			"description": "Actualiza un estudiante existente",
+			"collectionId": "e9eb6d32-3590-6e6a-66fc-1c7a48964e2c",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\": 1,\n\t\"name\": \"Pompilio Jose\",\n\t\"lastname\": \"Perez Marquez\",\n\t\"gender\": \"m\"\n}"
+		},
+		{
+			"id": "db2aab87-52d0-c559-a8a9-8087924e8d39",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/SchoolApi/student",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e9eb6d32-3590-6e6a-66fc-1c7a48964e2c",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Student Create",
+			"description": "Crea un nuevo estudiante",
+			"descriptionFormat": "html",
+			"time": 1510892279703,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "bfa190a9-3e65-87de-72a2-7ce66c87cfec",
+			"rawModeData": "{\n\t\"name\": \"Kevin\",\n\t\"lastname\": \"Tellez\",\n\t\"gender\": \"m\"\n}"
+		},
+		{
+			"id": "e9feea37-bb6f-b2fd-99a2-5b62de601ddc",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/SchoolApi/student?id=2",
+			"folder": "bfa190a9-3e65-87de-72a2-7ce66c87cfec",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510892792885,
+			"name": "Student Update",
+			"description": "Actualiza un estudiante existente",
+			"collectionId": "e9eb6d32-3590-6e6a-66fc-1c7a48964e2c",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\": 1,\n\t\"name\": \"Kevin Dario\",\n\t\"lastname\": \"Tellez Sagbini\",\n\t\"gender\": \"m\"\n}"
+		},
+		{
+			"id": "fccc0250-6801-c913-8210-0ba3835c5b48",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/SchoolApi/course/1",
+			"folder": "26b9af1e-7791-89ad-ac1d-62fcfac47ccb",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510892698868,
+			"name": "Courses Delete",
+			"description": "Elimina un curso",
+			"collectionId": "e9eb6d32-3590-6e6a-66fc-1c7a48964e2c",
+			"responses": [],
+			"rawModeData": ""
+		}
+	]
+}
