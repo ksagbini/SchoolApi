@@ -1,0 +1,18 @@
+Options +FollowSymLinks
+Options -Indexes
+DirectoryIndex index.php
+RewriteEngine on
+RewriteCond $1 !^(index\.php|images|styles|scripts|robots\.txt|favicon\.ico)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /SchoolApi/index.php?/$1 [L,QSA] #URL LOCALHOST
+
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods: "GET, POST, PUT, DELETE, OPTIONS"
+    Header set Access-Control-Allow-Headers: "Origin, X-Requested-With, Content-Type, Accept, Authorization, Auth"
+</IfModule>
+
+#RewriteEngine on
+#RewriteCond $1 !^(index\.php|images|robots\.txt)
+#RewriteRule ^(.*)$ /quierocomprarlo/index.php/$1 [L]
